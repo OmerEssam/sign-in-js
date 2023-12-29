@@ -1,0 +1,125 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.login{
+    background-color: #F0F2F5;
+}
+.logo{
+    padding: 8px 0 20px 0;
+}
+h2{
+    font-size: 37px;
+    color: #333333;
+}
+.logins .card-facebook{
+    cursor: pointer;
+}
+.logins .card-facebook p{
+    color: #1976F2;
+    font-size: 19px;
+    background-color: #fff;
+    border: 1px solid rgb(210, 210, 210);
+    border-top:0 ;
+    border-radius: 0 0 7px 7px;
+}
+.logins .add-icon{
+    background-color: #f5f6f7;
+    height: 160px;
+    border: 1px solid rgb(210, 210, 210);
+    border-bottom:0 ;
+    border-radius:7px 7px 0 0;
+}
+.logins i{
+font-size: 40px;
+color: #1976F2;
+}
+.card-login{
+    border-radius: 7px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .1), 0 8px 16px rgba(0, 0, 0, .1);
+}
+.inputs  .inputSign{
+    border-radius: 6px;
+    border: 1px solid #d2d2d2;
+    padding: 14px 16px;
+    outline-color: #1976F2;
+    outline-width: 0.5px;
+}
+.inputs input:focus{
+    border-color: #1976F2;
+}
+.inputs input::placeholder{
+    color:#90949C;
+    font-size: 19px;
+}
+.b-login{
+    background-color: #1976F2;
+    color: white;
+    font-weight: bold;
+    font-size:21px;
+    border: none;
+    border-radius: 8px;
+    padding:10px 0 ;
+}
+.forget-pass{
+    color:#1976F2 ;
+    border-bottom: 1px solid #dbdcde;
+}
+.b-signin{
+    background-color: #36A420;
+    color: white;
+    font-weight: bold;
+    font-size:21px;
+    border: none;
+    border-radius: 8px;
+    padding:10px;
+}
+.overlay{
+    z-index: 999;
+    background-color: rgba(0, 0, 0, .4);
+}
+.overlay .child{
+background-color: #fff;
+}
+.child h2{
+    font-size:33px;
+    color: #1C1E21;
+    font-weight: bold;
+}
+.exit{
+    color: #454444;
+}
+.space{
+    border-bottom: 1px solid rgb(222, 220, 220);
+}
+.inputs-signout .inputRight{
+    border-radius: 6px;
+    border: 1px solid #d2d2d2;
+    padding: 7px 16px;
+    outline-color: #1976F2;
+    outline-width: 0.5px;
+    background-color: #F5F6F7;
+}
+.b-signup{
+    background-color: #36A420;
+    color: white;
+    font-weight: bold;
+    font-size:21px;
+    border: none;
+    border-radius: 8px;
+    padding:10px;
+}
+.inputerror{
+    border-radius: 6px;
+    border: 1px solid red;
+    padding: 7px 16px;
+    outline-color: rgb(235, 87, 87);
+    outline-width: 0.5px;
+    color: rgb(244, 68, 68);
+    background-color: #F5F6F7;
+}
+.eye{
+    position: absolute;
+    top: 75px; 
+     left: 9px ;
+     cursor: pointer;
+}

